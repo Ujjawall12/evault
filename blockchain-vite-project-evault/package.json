@@ -1,0 +1,13 @@
+{
+  "name": "blockchain-vite-project-evault",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run blockchain-hardhat --prefix blockchain-hardhat\" \"npm run dev --prefix frontend-vite\""
+
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
